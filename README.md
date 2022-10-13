@@ -1,4 +1,7 @@
 # FROGLET
+
+Fields extRactor frOm GoogLe EarTh pins 
+
 A semi-automated pipeline for the conversion of Google Earth KML pin files formatted to record archaeological features into an Excel database. The pipeline has been built to support the Aerial Archaeology Research Group's Ukraine Working Group as it maps archaeological features from freely available satellite imagery and other sources.
 
 The pipeline comprises two Excel worksheets and a .txt intermediate file to process the GE pins and includes a relatively high degree of error checking to diagnose any anomalies in the recording of data. It starts with the KMZ file of a square containing the placemarks of features recorded primarily as pins, but also polygons and lines. The KMZ is loaded into GE and all the pins in the square are saved in a separate KML file .Likewise, if present the polygons and lines are saved as KML files for later use. 
